@@ -57,7 +57,7 @@ class ParamaterSearchViewControler: UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showResultsSegue"{
-            let controller = segue.destinationViewController as! ResultViewController
+            let controller = segue.destinationViewController as! ResultsTableViewController
             controller.noOfDateResults = noOfDateResults
             controller.noOfResultFacts = noOfResultFacts
             controller.result = result

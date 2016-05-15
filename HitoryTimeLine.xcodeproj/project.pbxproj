@@ -14,9 +14,9 @@
 		8E46F37D1CDFD4080041643B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E46F37B1CDFD4080041643B /* LaunchScreen.storyboard */; };
 		8E46F3881CDFD4080041643B /* HitoryTimeLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E46F3871CDFD4080041643B /* HitoryTimeLineTests.swift */; };
 		8E46F3931CDFD4080041643B /* HitoryTimeLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E46F3921CDFD4080041643B /* HitoryTimeLineUITests.swift */; };
-		8E46F3A11CDFD4200041643B /* TotalTimeLine.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E46F3A01CDFD4200041643B /* TotalTimeLine.plist */; };
 		8E46F3A31CDFD6080041643B /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E46F3A21CDFD6080041643B /* DataStructure.swift */; };
-		8E6AA0BE1CE3CB81008CAF14 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6AA0BD1CE3CB81008CAF14 /* ResultViewController.swift */; };
+		8E516A4E1CE9060A00E0B001 /* TotalTimeLine.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E516A4D1CE9060A00E0B001 /* TotalTimeLine.plist */; };
+		8E6AA0C01CE63F9B008CAF14 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6AA0BF1CE63F9B008CAF14 /* ResultsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		8E46F38E1CDFD4080041643B /* HitoryTimeLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitoryTimeLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E46F3921CDFD4080041643B /* HitoryTimeLineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitoryTimeLineUITests.swift; sourceTree = "<group>"; };
 		8E46F3941CDFD4080041643B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E46F3A01CDFD4200041643B /* TotalTimeLine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TotalTimeLine.plist; path = ../../../../Desktop/TotalTimeLine/TotalTimeLine.plist; sourceTree = "<group>"; };
 		8E46F3A21CDFD6080041643B /* DataStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
-		8E6AA0BD1CE3CB81008CAF14 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		8E516A4D1CE9060A00E0B001 /* TotalTimeLine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TotalTimeLine.plist; path = ../../../../Desktop/PlistForHistoryTimeLine/TotalTimeLine.plist; sourceTree = "<group>"; };
+		8E6AA0BF1CE63F9B008CAF14 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				8E46F3A21CDFD6080041643B /* DataStructure.swift */,
+				8E516A4D1CE9060A00E0B001 /* TotalTimeLine.plist */,
 				8E46F3741CDFD4080041643B /* ParamaterSearchViewControler.swift */,
-				8E46F3A01CDFD4200041643B /* TotalTimeLine.plist */,
-				8E46F3721CDFD4080041643B /* AppDelegate.swift */,
+				8E6AA0BF1CE63F9B008CAF14 /* ResultsTableViewController.swift */,
 				8E46F3761CDFD4080041643B /* Main.storyboard */,
 				8E46F3791CDFD4080041643B /* Assets.xcassets */,
+				8E46F3721CDFD4080041643B /* AppDelegate.swift */,
 				8E46F37B1CDFD4080041643B /* LaunchScreen.storyboard */,
 				8E46F37E1CDFD4080041643B /* Info.plist */,
-				8E6AA0BD1CE3CB81008CAF14 /* ResultViewController.swift */,
 			);
 			path = HitoryTimeLine;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E46F3A11CDFD4200041643B /* TotalTimeLine.plist in Resources */,
+				8E516A4E1CE9060A00E0B001 /* TotalTimeLine.plist in Resources */,
 				8E46F37D1CDFD4080041643B /* LaunchScreen.storyboard in Resources */,
 				8E46F37A1CDFD4080041643B /* Assets.xcassets in Resources */,
 				8E46F3781CDFD4080041643B /* Main.storyboard in Resources */,
@@ -269,7 +269,7 @@
 				8E46F3A31CDFD6080041643B /* DataStructure.swift in Sources */,
 				8E46F3751CDFD4080041643B /* ParamaterSearchViewControler.swift in Sources */,
 				8E46F3731CDFD4080041643B /* AppDelegate.swift in Sources */,
-				8E6AA0BE1CE3CB81008CAF14 /* ResultViewController.swift in Sources */,
+				8E6AA0C01CE63F9B008CAF14 /* ResultsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
